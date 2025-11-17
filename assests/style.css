@@ -1,0 +1,81 @@
+[data-testid="stAppViewContainer"] {
+    background-color: #151a24;
+}
+
+[data-testid="stSidebar"] {
+    background-color: #202530;
+}
+
+h1, h2, h3, p, span, div, label, .stMarkdown {
+    color: #e0e0e0 !important;
+}
+
+.stSlider p {
+    color: #ffffff !important;
+}
+
+.diagnosis {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color: white !important;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.diagnosis.benign {
+    background-color: #2ecc71;
+    border: 2px solid #27ae60;
+    box-shadow: 0 0 15px rgba(46, 204, 113, 0.3);
+}
+
+.diagnosis.malicious {
+    background-color: #e74c3c;
+    border: 2px solid #c0392b;
+    box-shadow: 0 0 15px rgba(231, 76, 60, 0.3);
+}
+
+div[data-testid="stMetricLabel"] > div {
+    color: #b0b0b0 !important;
+}
+
+div[data-testid="stMetricValue"] > div {
+    color: #ffffff !important;
+    font-size: 28px;
+}
+
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+header[data-testid="stHeader"] {
+    background-color: #151a24 !important;
+}
+
+.st-emotion-cache-1wmy966 {
+    display: none;
+}
+
+div[data-testid="stExpander"] details > summary {
+    background-color: #202530 !important;
+    color: white !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    border-radius: 5px;
+}
+
+div[data-testid="stExpander"] details > summary:hover {
+    background-color: #2b303b !important;
+    color: #ffffff !important;
+}
+
+div[data-testid="stExpander"] details > summary svg {
+    fill: white !important;
+    color: white !important;
+}
+
+div[data-testid="stExpander"] details > summary p {
+    color: white !important;
+}

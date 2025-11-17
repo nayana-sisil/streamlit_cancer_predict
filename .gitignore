@@ -1,0 +1,13 @@
+# Ignore virtual environments (The most important part)
+venv/
+venv311/
+env/
+.env
+
+# Ignore PyCharm settings
+.idea/
+.vscode/
+
+# Ignore compiled python files
+__pycache__/
+*.pyc
